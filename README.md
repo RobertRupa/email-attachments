@@ -13,6 +13,8 @@ Example for contact form:
 Make preference for Magento\Contact\Model\Mail
 <code>
 
+    $file_path = 'media/directory/file.jpg'; 
+    $fileName = 'file.jpg';
     $transport = $this->transportBuilder
         ->setTemplateIdentifier($this->contactsConfig->emailTemplate())
         ->setTemplateOptions(
